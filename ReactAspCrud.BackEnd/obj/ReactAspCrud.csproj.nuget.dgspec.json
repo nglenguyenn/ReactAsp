@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj": {}
+    "D:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj": {}
   },
   "projects": {
-    "d:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj": {
+    "D:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj",
+        "projectUniqueName": "D:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj",
         "projectName": "ReactAspCrud",
-        "projectPath": "d:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj",
+        "projectPath": "D:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\ReactAspCrud.csproj",
         "packagesPath": "C:\\Users\\Le Nguyen\\.nuget\\packages\\",
-        "outputPath": "d:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\obj\\",
+        "outputPath": "D:\\Source Code\\ReactAsp\\ReactAspCrud.BackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Le Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
