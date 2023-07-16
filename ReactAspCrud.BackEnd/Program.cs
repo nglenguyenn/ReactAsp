@@ -16,6 +16,10 @@ builder.Services.AddDbContext<StudentDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 var app = builder.Build();
+app.UseCors(policy => policy.AllowAnyHeader()
+    .AllowAnyMethod()
+    .SetIsOriginAllowed(origin => true)
+    .AllowCredentials());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
